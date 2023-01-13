@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Appointments</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link href="styles.css" rel="stylesheet"
+  </head>
+  <body class="container">
+    <div id="new-appointment" class="jumbotron">
+      <h2>New Appointment</h2>
+      <input
+        type="text"
+        id="new-appointment-name"
+        class="form-control"
+        placeholder="Please List Your Name"
+      />
+      <button id="create-new-appointment" class="btn btn-primary form-control">
+        Create
+      </button>
+    </div>
+
+    <div id="app"></div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="1index.js"></script>
+  </body>
+</html>
